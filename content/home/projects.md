@@ -5,7 +5,7 @@ active = true
 date = 2016-04-20T00:00:00
 
 title = "Projects"
-subtitle = ""
+subtitle = "head oveer to my CV for details"
 
 # Order that this section will appear in.
 weight = 50
@@ -18,7 +18,7 @@ folder = "project"
 # View.
 # Customize how projects are displayed.
 # Legend: 0 = list, 1 = cards.
-view = 1
+view = 0
 
 # Filter toolbar.
 
@@ -29,17 +29,19 @@ filter_default = 0
 # To show all items, set `tag` to "*".
 # To filter by a specific tag, set `tag` to an existing tag name.
 # To remove toolbar, delete/comment all instances of `[[filter]]` below.
-# [[filter]]
-#   name = "All"
-#   tag = "*"
+ [[filter]]
+   name = "Deep Learning"
+   tag = "Deep Learning"
 #
-# [[filter]]
-#   name = "Deep Learning"
-#   tag = "Deep Learning"
+[[filter]]
+   name = "Reinforcement Learning"
+   tag = "RL"
+ 
 #
-# [[filter]]
-#   name = "Other"
-#   tag = "Demo"
+[[filter]]
+   name = "Computational Cognitive Science"
+   tag = "cgs"
+ 
 
 +++
 
